@@ -65,12 +65,3 @@ buck-out/
 
 #coverage
 /coverage
-
-#design-specification
-design-specification/fragments
-design-specification/sections
-design-specification/styles
-design-specification/jama-connector.jar
-application.properties
-design-specification/generated/jsdocs.json
-design-specification/preview/preview.html
