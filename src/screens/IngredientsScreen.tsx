@@ -1,14 +1,36 @@
-import React from 'react';
-import { StyleSheet, View } from 'react-native';
+import React, { useEffect, useState } from 'react';
+import { FlatList, StyleSheet, View } from 'react-native';
 import { useTheme } from '../contexts/ThemeContext';
-import { ColorPaletteInterface } from '../constants';
+import { ColorPaletteInterface, URL_CONSTANTS } from '../constants';
+import { IngredientItem, IngredientItemProps } from '../components';
 
 const IngredientsScreen = () => {
-  const { toggleTheme, themeColors } = useTheme();
-
+  const { themeColors } = useTheme();
   const styles = CreateStyles(themeColors);
 
-  return <View style={styles.container}></View>;
+  const [ingredients, setIngredients] = useState<IngredientItemProps[]>();
+
+  useEffect(() => {
+    fetchCategories();
+  }, []);
+
+  const fetchCategories = async () => {
+    const response = await fetch(URL_CONSTANTS.INGREDIENTS).then(res =>
+      res.json(),
+    );
+
+    setIngredients(response.meals);
+  };
+
+  return (
+    <View style={styles.container}>
+      <FlatList
+        data={ingredients}
+        keyExtractor={item => item.idIngredient.toString()}
+        renderItem={({ item }) => <IngredientItem {...item} />}
+      />
+    </View>
+  );
 };
 
 const CreateStyles = (themeColors: ColorPaletteInterface) =>
@@ -16,7 +38,6 @@ const CreateStyles = (themeColors: ColorPaletteInterface) =>
     container: {
       flex: 1,
       backgroundColor: themeColors.primaryBackgroundColor,
-      marginTop: 60,
     },
   });
 

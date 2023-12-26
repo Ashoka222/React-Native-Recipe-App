@@ -9,6 +9,9 @@ export interface ColorPaletteInterface {
   warningColor: string;
   dangerColor: string;
   headerBackgroundColor: string;
+  activeTintColor: string;
+  inactiveTintColor: string;
+  background: string;
 }
 
 const ColorPalette = {
@@ -23,6 +26,9 @@ const ColorPalette = {
     warningColor: '#FFC107',
     dangerColor: '#DC3545',
     headerBackgroundColor: '#FFFFFF',
+    activeTintColor: '#398439', // Success color
+    inactiveTintColor: '#A6A2A1', // Primary color
+    background: '#FFFFFF', // Header background color
   },
   DarkMode: {
     primaryBackgroundColor: '#1E1E1E',
@@ -35,6 +41,9 @@ const ColorPalette = {
     warningColor: '#FFC107',
     dangerColor: '#DC3545',
     headerBackgroundColor: '#000000',
+    activeTintColor: '#4CAF50', // Success color
+    inactiveTintColor: '#787575', // Primary color
+    background: '#000000', // Header background color
   },
 };
 

@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* ReactNativeRecipeAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ReactNativeRecipeAppTests.m */; };
-		0C80B921A6F3F58F76C31292 /* libPods-ReactNativeRecipeApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-ReactNativeRecipeApp.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		7699B88040F8A987B510C191 /* libPods-ReactNativeRecipeApp-ReactNativeRecipeAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-ReactNativeRecipeApp-ReactNativeRecipeAppTests.a */; };
+		62F8B17E133EB339EDCA1B0E /* libPods-ReactNativeRecipeApp-ReactNativeRecipeAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9AB0268B6800FF989DCA6ED /* libPods-ReactNativeRecipeApp-ReactNativeRecipeAppTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		B024562ED85B987685BA3476 /* libPods-ReactNativeRecipeApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87B5C39F2BA677E7B37C8A2F /* libPods-ReactNativeRecipeApp.a */; };
 		E15BD2E72B37263E00F60B24 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E15BD2DE2B37263E00F60B24 /* FontAwesome5_Solid.ttf */; };
 		E15BD2E82B37263E00F60B24 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E15BD2DF2B37263E00F60B24 /* MaterialIcons.ttf */; };
 		E15BD2E92B37263E00F60B24 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E15BD2E02B37263E00F60B24 /* MaterialCommunityIcons.ttf */; };
@@ -45,13 +45,12 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ReactNativeRecipeApp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ReactNativeRecipeApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ReactNativeRecipeApp/main.m; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-ReactNativeRecipeApp-ReactNativeRecipeAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeRecipeApp-ReactNativeRecipeAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B4392A12AC88292D35C810B /* Pods-ReactNativeRecipeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeRecipeApp.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeRecipeApp/Pods-ReactNativeRecipeApp.debug.xcconfig"; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-ReactNativeRecipeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeRecipeApp.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeRecipeApp/Pods-ReactNativeRecipeApp.release.xcconfig"; sourceTree = "<group>"; };
-		5B7EB9410499542E8C5724F5 /* Pods-ReactNativeRecipeApp-ReactNativeRecipeAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeRecipeApp-ReactNativeRecipeAppTests.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeRecipeApp-ReactNativeRecipeAppTests/Pods-ReactNativeRecipeApp-ReactNativeRecipeAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-ReactNativeRecipeApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeRecipeApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24D1AFA92E346DCDAC91F5EA /* Pods-ReactNativeRecipeApp-ReactNativeRecipeAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeRecipeApp-ReactNativeRecipeAppTests.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeRecipeApp-ReactNativeRecipeAppTests/Pods-ReactNativeRecipeApp-ReactNativeRecipeAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		665EED91611005CB2CFF4228 /* Pods-ReactNativeRecipeApp-ReactNativeRecipeAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeRecipeApp-ReactNativeRecipeAppTests.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeRecipeApp-ReactNativeRecipeAppTests/Pods-ReactNativeRecipeApp-ReactNativeRecipeAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ReactNativeRecipeApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		89C6BE57DB24E9ADA2F236DE /* Pods-ReactNativeRecipeApp-ReactNativeRecipeAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeRecipeApp-ReactNativeRecipeAppTests.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeRecipeApp-ReactNativeRecipeAppTests/Pods-ReactNativeRecipeApp-ReactNativeRecipeAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		87B5C39F2BA677E7B37C8A2F /* libPods-ReactNativeRecipeApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeRecipeApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA2E6F7E4006864A9C2FF470 /* Pods-ReactNativeRecipeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeRecipeApp.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeRecipeApp/Pods-ReactNativeRecipeApp.debug.xcconfig"; sourceTree = "<group>"; };
+		ADACC5844E4D930916E768AF /* Pods-ReactNativeRecipeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeRecipeApp.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeRecipeApp/Pods-ReactNativeRecipeApp.release.xcconfig"; sourceTree = "<group>"; };
 		E15BD2DE2B37263E00F60B24 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
 		E15BD2DF2B37263E00F60B24 /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		E15BD2E02B37263E00F60B24 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
@@ -62,6 +61,7 @@
 		E15BD2E52B37263E00F60B24 /* FontAwesome6_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome6_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome6_Brands.ttf"; sourceTree = "<group>"; };
 		E15BD2E62B37263E00F60B24 /* FontAwesome6_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome6_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome6_Solid.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F9AB0268B6800FF989DCA6ED /* libPods-ReactNativeRecipeApp-ReactNativeRecipeAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeRecipeApp-ReactNativeRecipeAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-ReactNativeRecipeApp-ReactNativeRecipeAppTests.a in Frameworks */,
+				62F8B17E133EB339EDCA1B0E /* libPods-ReactNativeRecipeApp-ReactNativeRecipeAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,7 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-ReactNativeRecipeApp.a in Frameworks */,
+				B024562ED85B987685BA3476 /* libPods-ReactNativeRecipeApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,8 +119,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-ReactNativeRecipeApp.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-ReactNativeRecipeApp-ReactNativeRecipeAppTests.a */,
+				87B5C39F2BA677E7B37C8A2F /* libPods-ReactNativeRecipeApp.a */,
+				F9AB0268B6800FF989DCA6ED /* libPods-ReactNativeRecipeApp-ReactNativeRecipeAppTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -159,10 +159,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-ReactNativeRecipeApp.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-ReactNativeRecipeApp.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-ReactNativeRecipeApp-ReactNativeRecipeAppTests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-ReactNativeRecipeApp-ReactNativeRecipeAppTests.release.xcconfig */,
+				AA2E6F7E4006864A9C2FF470 /* Pods-ReactNativeRecipeApp.debug.xcconfig */,
+				ADACC5844E4D930916E768AF /* Pods-ReactNativeRecipeApp.release.xcconfig */,
+				665EED91611005CB2CFF4228 /* Pods-ReactNativeRecipeApp-ReactNativeRecipeAppTests.debug.xcconfig */,
+				24D1AFA92E346DCDAC91F5EA /* Pods-ReactNativeRecipeApp-ReactNativeRecipeAppTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -190,12 +190,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ReactNativeRecipeAppTests" */;
 			buildPhases = (
-				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				BD02A2E57D2F475AC7C2AF3F /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
-				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+				744EE8E65E41B837A0EFD2F5 /* [CP] Embed Pods Frameworks */,
+				C45A5C8B953CB095A754EFCD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -211,13 +211,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ReactNativeRecipeApp" */;
 			buildPhases = (
-				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				D1D5190E1957C3BD36253786 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
-				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				8E18CC5BECF82A9A101C15D3 /* [CP] Embed Pods Frameworks */,
+				FEFD827FB95312602F46BE1E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -309,7 +309,24 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+		744EE8E65E41B837A0EFD2F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeRecipeApp-ReactNativeRecipeAppTests/Pods-ReactNativeRecipeApp-ReactNativeRecipeAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeRecipeApp-ReactNativeRecipeAppTests/Pods-ReactNativeRecipeApp-ReactNativeRecipeAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeRecipeApp-ReactNativeRecipeAppTests/Pods-ReactNativeRecipeApp-ReactNativeRecipeAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E18CC5BECF82A9A101C15D3 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -326,7 +343,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeRecipeApp/Pods-ReactNativeRecipeApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+		BD02A2E57D2F475AC7C2AF3F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -348,7 +365,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+		C45A5C8B953CB095A754EFCD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeRecipeApp-ReactNativeRecipeAppTests/Pods-ReactNativeRecipeApp-ReactNativeRecipeAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeRecipeApp-ReactNativeRecipeAppTests/Pods-ReactNativeRecipeApp-ReactNativeRecipeAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeRecipeApp-ReactNativeRecipeAppTests/Pods-ReactNativeRecipeApp-ReactNativeRecipeAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1D5190E1957C3BD36253786 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -370,24 +404,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeRecipeApp-ReactNativeRecipeAppTests/Pods-ReactNativeRecipeApp-ReactNativeRecipeAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeRecipeApp-ReactNativeRecipeAppTests/Pods-ReactNativeRecipeApp-ReactNativeRecipeAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeRecipeApp-ReactNativeRecipeAppTests/Pods-ReactNativeRecipeApp-ReactNativeRecipeAppTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+		FEFD827FB95312602F46BE1E /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -402,23 +419,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeRecipeApp/Pods-ReactNativeRecipeApp-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeRecipeApp-ReactNativeRecipeAppTests/Pods-ReactNativeRecipeApp-ReactNativeRecipeAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeRecipeApp-ReactNativeRecipeAppTests/Pods-ReactNativeRecipeApp-ReactNativeRecipeAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeRecipeApp-ReactNativeRecipeAppTests/Pods-ReactNativeRecipeApp-ReactNativeRecipeAppTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -454,7 +454,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-ReactNativeRecipeApp-ReactNativeRecipeAppTests.debug.xcconfig */;
+			baseConfigurationReference = 665EED91611005CB2CFF4228 /* Pods-ReactNativeRecipeApp-ReactNativeRecipeAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -481,7 +481,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-ReactNativeRecipeApp-ReactNativeRecipeAppTests.release.xcconfig */;
+			baseConfigurationReference = 24D1AFA92E346DCDAC91F5EA /* Pods-ReactNativeRecipeApp-ReactNativeRecipeAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -505,7 +505,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-ReactNativeRecipeApp.debug.xcconfig */;
+			baseConfigurationReference = AA2E6F7E4006864A9C2FF470 /* Pods-ReactNativeRecipeApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -532,7 +532,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-ReactNativeRecipeApp.release.xcconfig */;
+			baseConfigurationReference = ADACC5844E4D930916E768AF /* Pods-ReactNativeRecipeApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -624,7 +624,10 @@
 					"-DFOLLY_USE_LIBCPP=1",
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 				);
-				OTHER_LDFLAGS = "$(inherited)  ";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
@@ -692,7 +695,10 @@
 					"-DFOLLY_USE_LIBCPP=1",
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 				);
-				OTHER_LDFLAGS = "$(inherited)  ";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;

@@ -1,18 +1,34 @@
-import React, { useContext, useState } from 'react';
-import { Button, StyleSheet, View } from 'react-native';
+import React, { useContext, useEffect, useState } from 'react';
+import { Button, FlatList, StyleSheet, View } from 'react-native';
 import { useTheme } from '../contexts/ThemeContext';
-import { ColorPaletteInterface } from '../constants';
+import { ColorPaletteInterface, URL_CONSTANTS } from '../constants';
+import { CategoryItem, CategoryItemProps } from '../components';
 
-const CategoriesScreen = () => {
-  const { toggleTheme, themeColors } = useTheme();
-
+const CategoriesScreen: React.FC = () => {
+  const { themeColors } = useTheme();
   const styles = CreateStyles(themeColors);
+
+  const [categories, setCategories] = useState<CategoryItemProps[]>();
+
+  useEffect(() => {
+    fetchCategories();
+  }, []);
+
+  const fetchCategories = async () => {
+    const response = await fetch(URL_CONSTANTS.CATEGORIES).then(res =>
+      res.json(),
+    );
+
+    setCategories(response.categories);
+  };
 
   return (
     <View style={styles.container}>
-      <Button title="Dark" onPress={() => toggleTheme('dark')} />
-      <Button title="Light" onPress={() => toggleTheme('light')} />
-      <Button title="Default" onPress={() => toggleTheme('default')} />
+      <FlatList
+        data={categories}
+        keyExtractor={item => item.idCategory.toString()}
+        renderItem={({ item }) => <CategoryItem {...item} />}
+      />
     </View>
   );
 };

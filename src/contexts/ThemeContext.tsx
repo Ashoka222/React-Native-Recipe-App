@@ -4,7 +4,7 @@ import { useColorScheme } from 'react-native';
 import { ColorPalette, ColorPaletteInterface } from '../constants';
 
 // Define the theme type
-type Theme = 'light' | 'dark' | 'default';
+export type Theme = 'light' | 'dark' | 'default';
 
 interface ThemeContextType {
   theme: Theme;
@@ -12,7 +12,9 @@ interface ThemeContextType {
   themeColors: ColorPaletteInterface;
 }
 
-export const ThemeContext = React.createContext<ThemeContextType | undefined>(undefined);
+export const ThemeContext = React.createContext<ThemeContextType | undefined>(
+  undefined,
+);
 
 interface ThemeProviderProps {
   children?: React.ReactNode;
@@ -44,7 +46,9 @@ export const ThemeProvider: React.FC<ThemeProviderProps> = ({ children }) => {
   };
 
   const themeColors =
-    (theme === 'default' && isSystemDarkMode) || theme === 'dark' ? ColorPalette.DarkMode : ColorPalette.LightMode;
+    (theme === 'default' && isSystemDarkMode) || theme === 'dark'
+      ? ColorPalette.DarkMode
+      : ColorPalette.LightMode;
 
   const contextValue: ThemeContextType = {
     theme,
@@ -52,7 +56,11 @@ export const ThemeProvider: React.FC<ThemeProviderProps> = ({ children }) => {
     themeColors,
   };
 
-  return <ThemeContext.Provider value={contextValue}>{children}</ThemeContext.Provider>;
+  return (
+    <ThemeContext.Provider value={contextValue}>
+      {children}
+    </ThemeContext.Provider>
+  );
 };
 
 // Create a custom hook to use the theme context
