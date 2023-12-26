@@ -23,7 +23,7 @@ const CategoriesScreen: React.FC = () => {
   };
 
   return (
-    <View style={styles.container}>
+    <View style={[styles.container]}>
       <FlatList
         data={categories}
         keyExtractor={item => item.idCategory.toString()}

@@ -9,7 +9,6 @@ const DrawerNavigator = () => {
   const Drawer = createDrawerNavigator();
 
   return (
-    // <Drawer.Navigator {...props}>
     <Drawer.Navigator
       drawerContent={props => <DrawerContent {...props} />}
       screenOptions={{
@@ -20,11 +19,6 @@ const DrawerNavigator = () => {
         name={SCREEN_NAMES.CATEGORIES_SCREEN}
         component={TabStackNavigator}
       />
-
-      {/* <Drawer.Screen
-        name={SCREEN_NAMES.SETTINGS_SCREEN}
-        component={SettingsScreen}
-      /> */}
     </Drawer.Navigator>
   );
 };

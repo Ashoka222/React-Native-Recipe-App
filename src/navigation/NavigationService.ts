@@ -1,5 +1,10 @@
 import React, { RefObject } from 'react';
-import { StackActions, CommonActions, NavigationContainerRef, ParamListBase } from '@react-navigation/native';
+import {
+  StackActions,
+  CommonActions,
+  NavigationContainerRef,
+  ParamListBase,
+} from '@react-navigation/native';
 import { isEmptyOrNull } from '../utils/commonFunctions';
 
 interface NavigationFunctions {
@@ -10,14 +15,16 @@ interface NavigationFunctions {
   popToTop: (count?: number) => void;
 }
 
-export const navigationRef: RefObject<NavigationContainerRef<ParamListBase>> = React.createRef();
+export const navigationRef: RefObject<NavigationContainerRef<ParamListBase>> =
+  React.createRef();
 
 export const NavigationService: NavigationFunctions = {
   navigate: (routeName, params) => {
     navigationRef.current && navigationRef.current.navigate(routeName, params);
   },
   replace: (routeName, params) => {
-    navigationRef.current && navigationRef.current.dispatch(StackActions.replace(routeName, params));
+    navigationRef.current &&
+      navigationRef.current.dispatch(StackActions.replace(routeName, params));
   },
   goBack: () => {
     navigationRef.current && navigationRef.current.goBack();
@@ -33,9 +40,11 @@ export const NavigationService: NavigationFunctions = {
   },
   popToTop: count => {
     if (isEmptyOrNull(count)) {
-      navigationRef.current && navigationRef.current.dispatch(StackActions.popToTop());
+      navigationRef.current &&
+        navigationRef.current.dispatch(StackActions.popToTop());
     } else {
-      navigationRef.current && navigationRef.current.dispatch(StackActions.pop(count));
+      navigationRef.current &&
+        navigationRef.current.dispatch(StackActions.pop(count));
     }
   },
 };

@@ -45,6 +45,9 @@ const IngredientItem: React.FC<IngredientItemProps> = ({
           {strDescription}
         </Text>
       </View>
+      <TouchableOpacity>
+        <Text style={styles.button}>Click me</Text>
+      </TouchableOpacity>
     </TouchableOpacity>
   );
 };
@@ -82,6 +85,11 @@ const CreateStyles = (themeColors: ColorPaletteInterface) =>
       fontSize: 16,
       fontWeight: '400',
       color: themeColors.textColor,
+    },
+    button: {
+      width: 100,
+      height: 44,
+      backgroundColor: 'red',
     },
   });
 
